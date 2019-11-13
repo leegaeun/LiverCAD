@@ -31,7 +31,8 @@ malignancy is detected as shown below. White is ground-truth and Red is the pred
 <br/>
 
 
-We also prepared [test dataset](./data) so that you can try the detection yourself. Just run after modifying the following two lines in [*Run_test.ipynb*](./Run_test.ipynb) to suit your input path.<br/>
+We also prepared [test dataset](./data) so that you can try the detection yourself. All of this data is unused for training and includes hepatic malignancies.<br/>
+Just run after modifying the following two lines in [*Run_test.ipynb*](./Run_test.ipynb) to suit your input path.<br/>
 <pre>imgPath = "./data/img"
 maskPath = "./data/label_gt"<code>
 <br/>
