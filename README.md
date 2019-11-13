@@ -31,6 +31,7 @@ malignancy is detected as shown below. White is ground-truth and Red is the pred
 <br/>
 
 
-There is a learned weight of the conversion from B10f to B70f in the *weight* directory,<br/>
-In the *data/noncontrast* directory, there are test2 example image in addition to test1. You can convert it yourself.<br/>
+We also prepared [test dataset](./data) so that you can try the detection yourself. Just run after modifying the following two lines in [*Run_test.ipynb*](./Run_test.ipynb) to suit your input path.<br/>
+<pre>imgPath = "./data/img"
+maskPath = "./data/label_gt"<code>
 <br/>
