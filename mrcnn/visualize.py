@@ -1,11 +1,7 @@
-"""
-Mask R-CNN
-Display and Visualization Functions.
+ """ The following codes were modified from 
+ the original Mask R-CNN codes (https://github.com/matterport/Mask_RCNN.git). """ 
 
-Copyright (c) 2017 Matterport, Inc.
-Licensed under the MIT License (see LICENSE for details)
-Written by Waleed Abdulla
-"""
+    
 import os
 import random
 import colorsys
