@@ -1,11 +1,7 @@
-"""
-Mask R-CNN
-Display and Visualization Functions.
+ """ The following codes were modified from 
+ the original Mask R-CNN codes (https://github.com/matterport/Mask_RCNN.git). """ 
 
-Copyright (c) 2017 Matterport, Inc.
-Licensed under the MIT License (see LICENSE for details)
-Written by Waleed Abdulla
-"""
+    
 import os
 import random
 import colorsys
@@ -35,13 +31,6 @@ def random_colors(N, bright=True):
     colors = list(map(lambda c: colorsys.hsv_to_rgb(*c), hsv))
     random.shuffle(colors)
     return colors
-
-
-def convert_binary(image):
-    binary_image = image > np.zeros((image.shape[0],image.shape[1])) # Mask value must have 0 or 1. (binary)    
-    return binary_image
-
-
 
 def save_result_figures(image, result, class_names, filename,
                         captions=None, show_mask=True, show_bbox=True,

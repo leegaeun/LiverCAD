@@ -1,15 +1,6 @@
-"""
-Mask R-CNN
-Multi-GPU Support for Keras.
-Copyright (c) 2017 Matterport, Inc.
-Licensed under the MIT License (see LICENSE for details)
-Written by Waleed Abdulla
-Ideas and a small code snippets from these sources:
-https://github.com/fchollet/keras/issues/2436
-https://medium.com/@kuza55/transparent-multi-gpu-training-on-tensorflow-with-keras-8b0016fd9012
-https://github.com/avolkov1/keras_experiments/blob/master/keras_exp/multigpu/
-https://github.com/fchollet/keras/blob/master/keras/utils/training_utils.py
-"""
+ """ The following codes were modified from 
+ the original Mask R-CNN codes (https://github.com/matterport/Mask_RCNN.git). """ 
+
 
 import tensorflow as tf
 import keras.backend as K
