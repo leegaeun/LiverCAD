@@ -32,13 +32,6 @@ def random_colors(N, bright=True):
     random.shuffle(colors)
     return colors
 
-
-def convert_binary(image):
-    binary_image = image > np.zeros((image.shape[0],image.shape[1])) # Mask value must have 0 or 1. (binary)    
-    return binary_image
-
-
-
 def save_result_figures(image, result, class_names, filename,
                         captions=None, show_mask=True, show_bbox=True,
                         title="",
