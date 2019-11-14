@@ -1,10 +1,6 @@
-"""
-Mask R-CNN
-Common utility functions and classes.
-Copyright (c) 2017 Matterport, Inc.
-Licensed under the MIT License (see LICENSE for details)
-Written by Waleed Abdulla
-"""
+ """ The following codes were modified from 
+ the original Mask R-CNN codes (https://github.com/matterport/Mask_RCNN.git). """ 
+
 
 import sys
 import os
