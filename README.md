@@ -10,7 +10,7 @@ Ubuntu 18.04 LTS, Python 3.6.7, Keras 2.1.6, TensorFlow 1.9, CUDA 9.0, cuDNN 7.0
 
 ## Trained weights
 [Mask-RCNN](https://arxiv.org/pdf/1703.06870.pdf) was used to detect hepatic malignancy. Pre-trained weights with [MS COCO](https://ttic.uchicago.edu/~mmaire/papers/pdf/coco_eccv2014.pdf) were fine-tuned using multiphase CT scans including malignancies. <br/>
-[*weight/MaskRCNN_20190902_230139.hdf5*](./weight)<br/>
+[*weight/LiverCAD_weights.hdf5*](./weight)<br/>
 <br/>
 <br/>
 
